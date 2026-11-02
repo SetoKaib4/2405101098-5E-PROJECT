@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REIONIA — Beyond The Ordinary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announce">GRATIS ONGKIR UNTUK PEMBELIAN DI ATAS RP 500.000 — BEYOND THE ORDINARY.</div>
+<header class="nav">
+  <a href="#/" class="logo">REIONIA</a>
+  <nav id="menu">
+    <a href="#/shop">Shop</a>
+    <a href="#/about">Tentang</a>
+    <a href="#/login" id="navAcc">Masuk</a>
+    <a href="#/admin" id="navAdmin" hidden>Admin</a>
+    <a href="#/cart">Keranjang (<span id="cartCount">0</span>)</a>
+    <button class="btn ghost sm nav-logout" id="navLogout" type="button" hidden>Logout</button>
+  </nav>
+  <button class="burger" onclick="document.getElementById('menu').classList.toggle('open')" aria-label="Menu">☰</button>
+</header>
+<main id="app"></main>
+<footer>
+  <div class="foot-grid">
+    <div><div class="logo">REIONIA</div><p>An independent apparel label exploring identity, individuality, and contemporary street culture.</p></div>
+    <div><h4>Toko</h4><a href="#/shop">Semua Produk</a><a href="#/cart">Keranjang</a><a href="#/account">Pesanan Saya</a></div>
+    <div><h4>Sosial</h4><a href="#/about">Instagram</a><a href="#/about">TikTok</a><a href="#/about">WhatsApp</a></div>
+  </div>
+  <p class="copy">© 2026 REIONIA — Proyek UTS Pemrograman Web Dasar.</p>
+</footer>
+<div id="toast"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
