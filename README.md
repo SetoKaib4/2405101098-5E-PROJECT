@@ -87,3 +87,4 @@ Screenshot yang disertakan meliputi halaman beranda, katalog produk, detail prod
 - Materi perkuliahan Pemrograman Web Dasar.
 - Google Fonts.
 - Dokumen analisis project REIONIA.
+- Modul Praktikum Pemrograman Web Dasar
