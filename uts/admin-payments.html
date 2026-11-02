@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="REIONIA — independent unisex apparel label.">
+  <title>Pembayaran — REIONIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="admin-payments">
+<div class="announce">GRATIS ONGKIR UNTUK PEMBELIAN DI ATAS RP 500.000 — BEYOND THE ORDINARY.</div>
+<header class="nav">
+  <a href="index.html" class="logo">REIONIA</a>
+  <nav id="menu" aria-label="Navigasi utama">
+    <a href="shop.html">Shop</a>
+    <a href="about.html">Tentang</a>
+    <a href="cart.html" class="nav-cart">Keranjang (<span id="cartCount">0</span>)</a>
+    <a href="login.html" id="navAcc" class="nav-account-icon" aria-label="Masuk" title="Masuk">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="3.5"></circle><path d="M4.8 20a7.2 7.2 0 0 1 14.4 0"></path></svg>
+    </a>
+  </nav>
+  <button class="burger" id="menuToggle" type="button" aria-label="Buka menu" aria-expanded="false">☰</button>
+</header>
+<main><section class="wrap"><div class="sec-head"><h2>Verifikasi Pembayaran</h2><button class="btn ghost sm" id="logout" type="button">Logout</button></div><nav class="tabs" id="adminTabs" aria-label="Navigasi admin"></nav>
+  <div class="tbl"><table><thead><tr><th>Kode</th><th>Nominal</th><th>Bukti</th><th>Aksi</th></tr></thead><tbody id="paymentRows"></tbody></table></div></section></main>
+<footer>
+  <div class="foot-grid">
+    <div><div class="logo">REIONIA</div><p>An independent apparel label exploring identity, individuality, and contemporary street culture.</p></div>
+    <div><h4>Toko</h4><a href="shop.html">Semua Produk</a><a href="cart.html">Keranjang</a><a href="account.html">Pesanan Saya</a></div>
+    <div><h4>Sosial</h4><a href="about.html">Instagram</a><a href="about.html">TikTok</a><a href="about.html">WhatsApp</a></div>
+  </div>
+  <p class="copy">© 2026 REIONIA — Proyek UTS Pemrograman Web Dasar.</p>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js" defer></script>
+</body>
+</html>

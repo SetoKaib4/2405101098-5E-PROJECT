@@ -113,3 +113,44 @@ footer{border-top:1px solid var(--line);padding:50px 5vw 24px;margin-top:40px}
 @media(min-width:901px) and (max-width:1100px){.nav{gap:14px;padding-left:3vw;padding-right:3vw}.nav nav{gap:14px}.logo{font-size:24px}}
 .card .img img{object-fit:contain;padding:12px}
 .gallery .img img{object-fit:contain;padding:12px}
+
+/* Multi-page HTML layout additions */
+.detail-price{font-size:22px;margin:10px 0}
+.stock-info{margin:10px 0}
+.size-guide{font-size:13px;margin-bottom:18px}
+.related-head{margin-top:70px}
+.form-note{margin-top:14px}
+.demo-note{font-size:12px;margin-top:18px;padding-top:12px;border-top:1px solid var(--line)}
+.red-link{color:var(--red)}
+.about-lead{font-size:20px}
+.about-copy{margin-top:16px}
+.admin-form{margin:0 0 20px;max-width:560px}
+.admin-product-form{margin-bottom:24px}
+.admin-intro{margin:0 0 18px}
+.report-filter{max-width:620px}
+.stock-input{width:66px;min-width:58px}
+.nav nav{flex-shrink:0}
+.nav nav .nav-account-icon{order:4;margin-left:4px}
+@media(max-width:900px){
+  .nav{gap:14px}
+  .nav nav{align-items:stretch;gap:16px}
+  .nav nav .nav-account-icon{align-self:flex-start;order:4;margin-left:0}
+  .hero{min-height:68vh}
+  .card .img{height:clamp(190px,48vw,270px)}
+  .detail{gap:28px}
+  .gallery{max-width:100%}
+  .gallery .img{height:min(88vw,440px);max-height:440px}
+  .admin-form{max-width:100%}
+}
+@media(max-width:560px){
+  .wrap{padding:32px 5vw}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 12px}
+  .card .img{height:clamp(160px,54vw,230px)}
+  .card h3{font-size:13px}
+  .price{font-size:12px}
+  .news{flex-direction:column}
+  .box{padding:18px}
+  .sec-head h2{font-size:34px}
+  .tabs{gap:6px}
+  .tabs a{padding:8px 10px;font-size:10px}
+}
